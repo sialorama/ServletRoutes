@@ -16,10 +16,8 @@ public class Acteur {
     public Acteur() {}
 
     public Acteur(String nom, String prenom) {
-        this.id = id;
         this.nom = nom;
         this.prenom = prenom;
-        this.photo = photo;
     }
 
     public Acteur(int id, String nom, String prenom, String photo) {

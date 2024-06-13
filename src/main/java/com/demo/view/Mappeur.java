@@ -12,7 +12,7 @@ import java.io.IOException;
 @WebServlet(name = "/ListeActeurs/*")
 public class Mappeur extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nom = req.getParameter("nom");
     }
 }

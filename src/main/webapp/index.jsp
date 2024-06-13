@@ -7,8 +7,9 @@
 <body>
 <h1><%= "Home" %></h1>
 <br/><center>
-<a href="Servlet-Accueil">Ce lien est exposé dans l'index.jsp</a><br><br>
-<a href="ListeActeurs">La liste des acteurs</a><br><br>
+  <a href="Servlet-Accueil">Ce lien est exposé dans l'index.jsp</a><br><br>
+  <a href="ListeActeurs">La liste des acteurs</a><br><br>
+  <a href="ListeFilms">La liste des films</a><br><br>
 </center>
 </body>
 </html>
