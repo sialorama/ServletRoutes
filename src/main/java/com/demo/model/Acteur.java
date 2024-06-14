@@ -19,6 +19,11 @@ public class Acteur {
         this.nom = nom;
         this.prenom = prenom;
     }
+    public Acteur(String nom, String prenom, String photo) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.photo = photo;
+    }
 
     public Acteur(int id, String nom, String prenom, String photo) {
         this.id = id;

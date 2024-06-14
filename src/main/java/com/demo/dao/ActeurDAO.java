@@ -27,7 +27,7 @@ public class ActeurDAO {
         return (session.get(Acteur.class,id));
     }
 
-    public void addActeur(Acteur act) {
+    public void addActeur(Acteur acteur) {
         // insert query
         // using prepared statements
         PreparedStatement preparedStatement =null;
@@ -36,13 +36,13 @@ public class ActeurDAO {
             con.setAutoCommit(false);
             PreparedStatement pst;
             pst = con.prepareStatement(query);
-            pst.setString(1, act.getNom());
-            pst.setString(2, act.getPhoto());
-            pst.setString(3,act.getPhoto());
+            pst.setString(1, acteur.getNom());
+            pst.setString(2, acteur.getPhoto());
+            pst.setString(3,acteur.getPhoto());
 
             pst.executeUpdate(); // executeUpdate is used for the insertion of the data
             con.commit();
-            System.out.println("acteur ajouté!");
+            System.out.println("L'acteur a été ajouté avec succès!");
         } catch (Exception ex) {
             try {
                 con.rollback();

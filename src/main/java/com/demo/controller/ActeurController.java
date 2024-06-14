@@ -14,4 +14,7 @@ public class ActeurController {
         List<Acteur> acteurs = acteurDao.getActeurs();
         return acteurs;
     }
+    public void addActeur(Acteur acteur) {
+        Acteur.add(acteur);
+    }
 }

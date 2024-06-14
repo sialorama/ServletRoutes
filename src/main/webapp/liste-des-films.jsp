@@ -15,8 +15,8 @@
 </head>
 <body>
 <%
-    List<Film> acteurs  = (List) request.getAttribute("films");
-    for(Film ac: acteurs) { %>
+    List<Film> films  = (List) request.getAttribute("films");
+    for(Film ac: films) { %>
 <h3><%= ac.getTitre() %> <%= ac.getAffiche() %> <%= ac.getDescription() %> <a href="film&id=<%= ac.getId() %>">detail</a></h3>
 <% } %>
 </body>

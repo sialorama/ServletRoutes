@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f73760a1-4566-46aa-949d-3d7d8b2db4b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/FilmController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/FilmDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/view/ListeFilms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/liste-des-films.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/view/AddActeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ajouter-un-acteur.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/ActeurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/controller/ActeurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/ActeurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/ActeurDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/Acteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/Acteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/Mappeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/view/Mappeur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/ListeFilms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/view/ListeFilms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/liste-des-films.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/liste-des-films.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -195,6 +192,7 @@
       <updated>1718285938303</updated>
       <workItem from="1718285939416" duration="4519000" />
       <workItem from="1718290768432" duration="1586000" />
+      <workItem from="1718345136401" duration="2902000" />
     </task>
     <servers />
   </component>
