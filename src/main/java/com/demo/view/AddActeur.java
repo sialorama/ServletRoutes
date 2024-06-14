@@ -11,23 +11,31 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
+@WebServlet(name = "AddActeur", value = "/AddActeur")
+public class AddActeur extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
-    @WebServlet(name = "AddActeur", value = "/AddActeur")
-    public class AddActeur extends HttpServlet {
-        @Override
-        public void doPost(HttpServletRequest request, HttpServletResponse response)
-                throws ServletException, IOException {
+        // Extract parameters from the request
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String photo = request.getParameter("photo");
 
-            // Create Acteur object
-            Acteur acteur = new Acteur("Brando", "Marlon", "brando.jpg");
-            // Instantiate ActeurController
-            ActeurController acteurController = new ActeurController();
-            // Add acteur using controller
-            acteurController.addActeur(acteur);
-            // Set acteur object as request attribute
-            request.setAttribute("acteurs", acteur);
-            // Forward request to the JSP page
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/ajouter-un-acteurs.jsp");
-            dispatcher.forward(request, response);
-        }
+        // Create Acteur object
+        Acteur acteur = new Acteur(firstName, lastName, photo);
+
+        // Instantiate ActeurController
+        ActeurController acteurController = new ActeurController();
+
+        // Add acteur using controller
+        acteurController.addActeur(acteur);
+
+        // Set acteur object as request attribute
+        request.setAttribute("acteur", acteur);
+
+        // Forward request to the JSP page
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/ajouter-un-acteur.jsp");
+        dispatcher.forward(request, response);
     }
+}
