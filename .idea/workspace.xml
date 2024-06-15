@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73760a1-4566-46aa-949d-3d7d8b2db4b4" name="Changes" comment="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="f73760a1-4566-46aa-949d-3d7d8b2db4b4" name="Changes" comment="Update des classe.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ajouter-un-acteur.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ajouter-un-acteur.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/liste-des-acteurs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/liste-des-acteurs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/liste-des-films.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/liste-des-films.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +420,7 @@
       <workItem from="1718386678048" duration="4523000" />
       <workItem from="1718438518657" duration="7802000" />
       <workItem from="1718453395483" duration="2052000" />
-      <workItem from="1718476664746" duration="1781000" />
+      <workItem from="1718476664746" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="Update de la base de données">
       <option name="closed" value="true" />
@@ -483,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718476843699</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update des classe.">
+      <option name="closed" value="true" />
+      <created>1718478798309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718478798309</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,6 +501,7 @@
     <MESSAGE value="Update d'hibernate" />
     <MESSAGE value="Update des classe de la config d'hibernate et web.xml. AJouter de la classe AdActeur.java." />
     <MESSAGE value="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java." />
+    <MESSAGE value="Update des classe." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update des classe." />
   </component>
 </project>
