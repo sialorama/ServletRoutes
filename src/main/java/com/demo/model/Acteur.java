@@ -34,9 +34,7 @@ public class Acteur {
     public int getId() {
         return this.id;
     }
-    public String getNom() {
-        return nom;
-    }
+    public String getNom() { return nom; }
     public String getPrenom() {
         return prenom;
     }
