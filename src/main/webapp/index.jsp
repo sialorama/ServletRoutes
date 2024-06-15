@@ -12,20 +12,12 @@
     </style>
 </head>
 <body>
-<h1 class="centered">Ajouter un Acteur</h1>
-<div class="centered">
-    <form action="Add-Acteur" method="post">
-        <label for="firstName">Prénom:</label>
-        <input type="text" id="firstName" name="firstName" required><br><br>
-
-        <label for="lastName">Nom:</label>
-        <input type="text" id="lastName" name="lastName" required><br><br>
-
-        <label for="photo">Photo (URL):</label>
-        <input type="text" id="photo" name="photo" required><br><br>
-
-        <input type="submit" value="Ajouter">
-    </form>
-</div>
+    <h1 class="centered">Ajouter un Acteur</h1>
+    <div class="centered">
+        <a href="index.jsp">Accueil</a><br><br>
+        <a href="Liste-Acteurs">Liste des acteurs</a><br><br>
+        <a href="Liste-Films">Liste des films</a><br><br>
+        <a href="ajouter-un-acteur.jsp">Ajouter un acteur</a>
+    </div>
 </body>
 </html>

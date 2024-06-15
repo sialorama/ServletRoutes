@@ -10,13 +10,18 @@
 <html>
 <head>
     <title>Liste des acteurs</title>
-    <p><h2>La liste des acteurs :</h2></p>
+
+    <h1><a href="index.jsp">Accueil</a></h1><br><br>
 </head>
 <body>
-<%
-    List<Acteur> acteurs  = (List) request.getAttribute("acteurs");
-    for(Acteur ac: acteurs) { %>
-<h3><%= ac.getNom() %> <%= ac.getPrenom() %> <a href="acteur&id=<%= ac.getId() %>">detail</a></h3>
-<% } %>
+    <div class="centered">
+        <p><h1 class="centered">La liste des acteurs :</h1><br><br>
+        <%
+            List<Acteur> acteurs  = (List) request.getAttribute("acteurs");
+            for(Acteur ac: acteurs) { %>
+        <h3><%= ac.getNom() %> <%= ac.getPrenom() %> <a href="acteur&id=<%= ac.getId() %>">detail</a></h3>
+        <% } %>
+
+    </div>
 </body>
 </html>

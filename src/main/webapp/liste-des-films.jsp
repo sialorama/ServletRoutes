@@ -10,13 +10,17 @@
 <html>
 <head>
     <title>Liste des films</title>
-    <p><h2>La liste des films :</h2></p>
+
+    <h1><a href="index.jsp">Accueil</a></h1><br><br>
 </head>
 <body>
-<%
-    List<Film> films  = (List) request.getAttribute("films");
-    for(Film ac: films) { %>
-<h3><%= ac.getTitre() %> <%= ac.getAffiche() %> <%= ac.getDescription() %> <a href="film&id=<%= ac.getId() %>">detail</a></h3>
-<% } %>
+    <div class="centered">
+        <p><h1 class="centered">La liste des films :</h1><br><br>
+    <%
+        List<Film> films  = (List) request.getAttribute("films");
+        for(Film ac: films) { %>
+    <h3><%= ac.getTitre() %> <%= ac.getAffiche() %> <%= ac.getDescription() %> <a href="film&id=<%= ac.getId() %>">detail</a></h3>
+    <% } %>
+    </div>
 </body>
 </html>
