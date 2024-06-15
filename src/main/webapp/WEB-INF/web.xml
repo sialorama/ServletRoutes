@@ -3,4 +3,41 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+
+    <servlet>
+        <servlet-name>ServletAccueil</servlet-name>
+        <servlet-class>com.servletscinema.ServletAccueil</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletAccueil</servlet-name>
+        <url-pattern>/Servlet-Accueil</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListeActeurs</servlet-name>
+        <servlet-class>com.servletscinema.view.ListeActeurs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListeActeurs</servlet-name>
+        <url-pattern>/Liste-Acteurs</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListeFilms</servlet-name>
+        <servlet-class>com.servletscinema.view.ListeFilms</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListeFilms</servlet-name>
+        <url-pattern>/Liste-Films</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddActeur</servlet-name>
+        <servlet-class>com.servletscinema.view.AddActeur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddActeur</servlet-name>
+        <url-pattern>/Add-Acteur</url-pattern>
+    </servlet-mapping>
+
 </web-app>
+

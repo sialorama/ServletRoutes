@@ -1,6 +1,5 @@
-<%@ page import="com.demo.model.Acteur" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.demo.model.Film" %><%--
+<%@ page import="com.servletscinema.model.Film" %><%--
   Created by IntelliJ IDEA.
   User: 29010-55-13
   Date: 13/06/2024

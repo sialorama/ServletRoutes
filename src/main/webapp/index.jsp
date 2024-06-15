@@ -2,28 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>Ajouter un Acteur</title>
+    <style>
+        .centered {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 500px; /* Pour limiter la largeur du contenu centré */
+        }
+    </style>
 </head>
 <body>
-<h1><%= "Home" %></h1>
-<br/><center>
-  <a href="Servlet-Accueil">Ce lien est exposé dans l'index.jsp</a><br><br>
-  <a href="ListeActeurs">La liste des acteurs</a><br><br>
-  <a href="ListeFilms">La liste des films</a><br><br>
-  <a href="/AddActeur">La liste des films</a><br><br>
-</center>
+<h1 class="centered">Ajouter un Acteur</h1>
+<div class="centered">
+    <form action="Add-Acteur" method="post">
+        <label for="firstName">Prénom:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
 
-<form action="/AddActeur" method="post">
-  <label for="nom">Nom:</label>
-  <input type="text" id="nom" name="nom" required>
-  <br>
-  <label for="prenom">Prénom:</label>
-  <input type="text" id="prenom" name="prenom" required>
-  <br>
-  <label for="photo">Photo URL:</label>
-  <input type="text" id="photo" name="photo" required>
-  <br>
-  <input type="submit" value="Ajouter">
-</form>
+        <label for="lastName">Nom:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="photo">Photo (URL):</label>
+        <input type="text" id="photo" name="photo" required><br><br>
+
+        <input type="submit" value="Ajouter">
+    </form>
+</div>
 </body>
 </html>

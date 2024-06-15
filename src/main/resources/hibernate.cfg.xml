@@ -5,10 +5,18 @@
 <hibernate-configuration>
     <session-factory>
         <!-- JDBC Database connection settings -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property><!-- ou son nouveau nom com.mysql.cj.jdbc.Driver -->
-        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/cinema</property>
+
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property><!-- Anciennement com.mysql.jdbc.Driver -->
+        <property name="connection.url">jdbc:mysql://localhost:3306/cinema</property>
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
+
+        <!-- JDBC connection pool settings -->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <property name="hibernate.c3p0.timeout">300</property>
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <!-- dbcp connection pool configuration -->
         <property name="hibernate.dbcp.initialSize">5</property>
@@ -31,11 +39,11 @@
         </property-->
 
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto">validate</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!-- Enities to map -->
-        <mapping class="com.demo.model.Acteur" />
-        <mapping class="com.demo.model.Film" />
+        <mapping class="com.servletscinema.model.Acteur" />
+        <mapping class="com.servletscinema.model.Film" />
     </session-factory>
 
 </hibernate-configuration>

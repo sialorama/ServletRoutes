@@ -1,4 +1,4 @@
-<%@ page import="com.demo.model.Acteur" %>
+<%@ page import="com.servletscinema.model.Acteur" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: 29010-55-13
