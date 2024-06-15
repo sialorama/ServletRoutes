@@ -9,31 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f73760a1-4566-46aa-949d-3d7d8b2db4b4" name="Changes" comment="Update d'hibernate">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f73760a1-4566-46aa-949d-3d7d8b2db4b4" name="Changes" comment="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/ActeurController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/controller/FilmController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/ActeurDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/FilmDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/Acteur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/Film.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/util/HibernateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/AddActeur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/ListeActeurs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/ListeFilms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/Mappeur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/view/ServletAccueil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ajouter-un-acteur.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ajouter-un-acteur.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/liste-des-acteurs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/liste-des-acteurs.jsp" afterDir="false" />
@@ -229,6 +207,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com : ServletsCinema-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___com___ServletsCinema_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5826c422-02c0-4d10-956d-412880d033c3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49455" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com : demo-1.0-SNAPSHOT.war" />
+          <artifact name="unnamed" />
+          <artifact name="Gradle : com : ServletsCinema-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -308,29 +375,8 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Gradle : com : demo-1.0-SNAPSHOT.war" />
           <artifact name="unnamed" />
+          <artifact name="Gradle : com : ServletsCinema-1.0-SNAPSHOT.war" />
         </option>
-      </method>
-    </configuration>
-    <configuration name="Tomcat: ServletRoutes" type="com.poratu.idea.plugins.tomcat">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="" />
-      <option name="contextPath" value="/ServletRoutes" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="extraClassPath" value="" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.24" />
-          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-10.1.24" />
-          <option name="version" value="10.1.24.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="com.poratu.idea.plugins.tomcat">
@@ -379,7 +425,7 @@
       <workItem from="1718386678048" duration="4523000" />
       <workItem from="1718438518657" duration="7802000" />
       <workItem from="1718453395483" duration="2052000" />
-      <workItem from="1718476664746" duration="27000" />
+      <workItem from="1718476664746" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Update de la base de données">
       <option name="closed" value="true" />
@@ -421,7 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718443160742</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update des classe de la config d'hibernate et web.xml. AJouter de la classe AdActeur.java.">
+      <option name="closed" value="true" />
+      <created>1718476800932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718476800932</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java.">
+      <option name="closed" value="true" />
+      <created>1718476843699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718476843699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,6 +496,8 @@
     <MESSAGE value="Update du fichier workspace.xml" />
     <MESSAGE value="Sauvegarde de cinema_DB" />
     <MESSAGE value="Update d'hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update d'hibernate" />
+    <MESSAGE value="Update des classe de la config d'hibernate et web.xml. AJouter de la classe AdActeur.java." />
+    <MESSAGE value="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update des classe de la config d'hibernate et web.xml. Ajout de la classe AdActeur.java." />
   </component>
 </project>
