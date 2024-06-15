@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ajouter un Acteur</title>
+    <title>Accueil</title>
     <style>
         .centered {
             text-align: center;
@@ -12,9 +12,9 @@
     </style>
 </head>
 <body>
-    <h1 class="centered">Ajouter un Acteur</h1>
+    <h1 class="centered">Bienvenue</h1><br><br>
     <div class="centered">
-        <a href="index.jsp">Accueil</a><br><br>
+
         <a href="Liste-Acteurs">Liste des acteurs</a><br><br>
         <a href="Liste-Films">Liste des films</a><br><br>
         <a href="ajouter-un-acteur.jsp">Ajouter un acteur</a>

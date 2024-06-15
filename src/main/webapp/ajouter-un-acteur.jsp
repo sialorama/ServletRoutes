@@ -3,11 +3,18 @@
 <html>
 <head>
     <title>Ajouter un Acteur</title>
+    <style>
+        .centered {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 500px; /* Pour limiter la largeur du contenu centré */
+        }
+    </style>
+    <h1 class="centered"><a href="index.jsp">Accueil</a></h1><br><br>
 </head>
 <body>
-<h1 class="centered">Ajouter un Acteur</h1>
 <div class="centered">
-    <h1><a href="index.jsp">Accueil</a></h1><br><br>
+    <h1 class="centered">Ajouter un Acteur</h1>
     <form action="Add-Acteur" method="post">
         <label for="firstName">Prénom:</label>
         <input type="text" id="firstName" name="firstName" required><br><br>

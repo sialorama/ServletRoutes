@@ -10,8 +10,14 @@
 <html>
 <head>
     <title>Liste des acteurs</title>
-
-    <h1><a href="index.jsp">Accueil</a></h1><br><br>
+    <style>
+        .centered {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 500px; /* Pour limiter la largeur du contenu centré */
+        }
+    </style>
+    <h1 class="centered"><a href="index.jsp">Accueil</a></h1><br><br>
 </head>
 <body>
     <div class="centered">
